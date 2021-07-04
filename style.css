@@ -1,71 +1,39 @@
-*{
-    margin: 0;
-    padding: 0%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body{
+    font-family: font-family: 'Mulish', sans-serif;;
 }
-header{
-    background-image: url(wallpaper.jpg);
-    background-position: center;
+.orange{
+    color:orange
+}
+p{
+    text-align: justify;
 
 }
-ul{
-    list-style-type: none;
-    float: right;
-    margin: 25px 20px 0 0 ;
-    text-transform: uppercase;
-}
-ul li{
-    display: inline-block;
-    
-    
-}
-ul li a{
-    text-decoration: none;
-    color: rgb(224, 22, 22)
-    font-size: 20px;
-    border: 1px solid transparent;
-    margin: 10px;
-    transition: 0.6s ease;
-    padding: 6px;
-}
-ul li a:hover{
-    background-color: rgb(48, 48, 23);
-    color: seashell;
-}
-.logo img{
-    float: left;
-    margin: -20px 0 0 20px;
-}
-hr{
-    width: 100%;
-    margin-top: 0;
-}
-.title{
-    color: salmon;
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-.button{
-    text-align: center;
-    margin: 20px;
-    border-radius: 2px;
-  
-}
-
-.btn{
-color: rgb(173, 62, 11);
-text-decoration: none;
-margin: 2px;
-border: 1px solid blueviolet;
-padding: 2px;
-
-
-}
-.btn:hover{
-    color: chartreuse;
-    background: coral;
-}
-hr{
+section{
+    display: flex;
+    border-bottom: orange;
+    background-image: url(Untitled-4.png);
+    background-repeat: no-repeat;
     margin-top: 20px;
 }
+.top-banner{
+
+    
+}
+.half-width{
+    width: 50%;
+    margin: 60px;
+
+}
+.half-width img{
+    width: 100%;
+    margin-right: 30px;
+
+}
+.sub-btn{
+    text-decoration: none;
+    color: #242521;
+    background-color: orange;
+    padding: 6px;
+    border-radius: 6px;
+}
+.mypic.jpg
